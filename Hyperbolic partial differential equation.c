@@ -17,7 +17,7 @@ int main(void)
     for(j=0;j<=N;j++) {
         for(i=0;i<=M;i++) {
             if(j==0) {
-                u[i][j]=0.05*(h*i)*(2-(h*i));
+                u[i][j]=0.05*h*i*(2-h*i);
             } else {
                 u[i][j]=0.0;
             }
